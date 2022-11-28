@@ -1,0 +1,81 @@
+.main {
+  width: 100vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.inputSection {
+  height: 13rem;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #1e1e3e;
+  font-size: 2rem;
+}
+
+.main input {
+  width: 42rem;
+  height: 2.5rem;
+  text-align: center;
+  border-radius: 18px;
+  font-size: 19px;
+  border: none;
+}
+
+.main input:focus {
+  outline: 0;
+}
+
+p {
+  padding: 8px;
+}
+
+.header {
+  color: white;
+  font-family: initial;
+}
+
+table {
+  font-family: arial, sans-serif;
+  /* border-collapse: collapse; */
+  width: 80%;
+  margin-top: 30px;
+}
+
+td {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+th {
+  text-align: center;
+  padding: 10px;
+  background-color: #050545;
+  color: white;
+}
+
+table th:first-child{
+  border-top-left-radius: 10px;
+}
+table th:last-child{
+  border-top-right-radius: 10px;
+}
+
+table tr:last-child td:first-child{
+  border-bottom-left-radius: 10px;
+}
+
+table tr:last-child td:last-child{
+  border-bottom-right-radius: 10px;
+}
+
+tr:nth-child(odd) {
+  background-color: #dddddd;
+}
